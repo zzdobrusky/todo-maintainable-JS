@@ -1,0 +1,22 @@
+.todo_input {
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 0.5rem;
+  padding: 0.8rem 1rem;
+}
+
+.todo_edit,
+.todo_content {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.todo_content[data-completed="true"] {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.todo_btn {
+  padding-left: 0.5rem;
+}

@@ -1,0 +1,13 @@
+.todo_item {
+  display: flex;
+  margin-top: 0.5rem;
+  padding: 0.3rem;
+  word-wrap: break-word;
+  width: 100%;
+  background-color: #ebebeb;
+  box-sizing: border-box;
+}
+
+.todo_btn {
+  padding-left: 0.5rem;
+}
